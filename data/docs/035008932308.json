@@ -1,0 +1,78 @@
+{
+ "ref": "035008932308",
+ "refDisplay": "0350 08 932308",
+ "title": "MATELASSURE ASSISE AR - COIFFE",
+ "nature": "",
+ "applicability": "2 SIEGES SUPPLEMENTAIRES SEPARES SANS ACCOUDOIR ET VELOURS ANCONE \"FM\"",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2J",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7C",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2J",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7C",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Q",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F6V",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0231"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0231"
+  }
+ ]
+}

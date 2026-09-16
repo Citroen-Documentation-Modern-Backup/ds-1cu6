@@ -1,0 +1,33 @@
+{
+ "ref": "035004371120",
+ "refDisplay": "0350 04 371120",
+ "title": "TRANSMISSION TRANSVERSALE",
+ "nature": "",
+ "applicability": "BVM ML5T",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0022"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7C",
+   "fctId": "FCT0022"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0022"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7C",
+   "fctId": "FCT0022"
+  }
+ ]
+}

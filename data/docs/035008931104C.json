@@ -1,0 +1,78 @@
+{
+ "ref": "035008931104C",
+ "refDisplay": "0350 08 931104C",
+ "title": "MATELASSURE ASSISE INTERMEDIAIRE-COIFFE",
+ "nature": "",
+ "applicability": "TISSU DELACROIX \"LX\" DEPUIS OPR 08057 JUSQU’A OPR 08728",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2J",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7C",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2J",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7C",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Q",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F6V",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0225"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0225"
+  }
+ ]
+}

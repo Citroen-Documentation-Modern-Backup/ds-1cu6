@@ -1,0 +1,208 @@
+{
+ "ref": "035006643601A",
+ "refDisplay": "0350 06 643601A",
+ "title": "RECHAUFFEUR EAU",
+ "nature": "",
+ "applicability": "CHAUFFAGE ADDITIONNEL AUTOMATIQUE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2J",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2J",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2J",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7C",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7C",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7C",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2J",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2J",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2J",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7C",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7C",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7C",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Q",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Q",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Q",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F6V",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F6V",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F6V",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0349"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0348"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0349"
+  }
+ ]
+}

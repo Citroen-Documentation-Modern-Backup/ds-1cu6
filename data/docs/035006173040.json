@@ -1,0 +1,18 @@
+{
+ "ref": "035006173040",
+ "refDisplay": "0350 06 173040",
+ "title": "CANALISATION FIX FILTRE CARBURANT",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 07160",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0010"
+  }
+ ]
+}

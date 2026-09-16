@@ -1,0 +1,18 @@
+{
+ "ref": "035001223010",
+ "refDisplay": "0350 01 223010",
+ "title": "CARTER HUILE FILTRE SONDE",
+ "nature": "",
+ "applicability": "SANS REFRIGERATION",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
+   "fctId": "FCT0008"
+  }
+ ]
+}

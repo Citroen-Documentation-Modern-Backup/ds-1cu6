@@ -1,0 +1,18 @@
+{
+ "ref": "035005501110",
+ "refDisplay": "0350 05 501110",
+ "title": "FAISCEAU PRINCIPAL COMPARTIMENT MOTEUR",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
+   "fctId": "FCT0308"
+  }
+ ]
+}

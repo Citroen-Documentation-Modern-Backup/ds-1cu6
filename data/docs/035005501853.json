@@ -1,0 +1,23 @@
+{
+ "ref": "035005501853",
+ "refDisplay": "0350 05 501853",
+ "title": "FAISCEAU PLANCHE DE BORD / CONSOLE",
+ "nature": "",
+ "applicability": "CONDUITE A GAUCHE JUSQU’A OPR 07111",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0309"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0309"
+  }
+ ]
+}

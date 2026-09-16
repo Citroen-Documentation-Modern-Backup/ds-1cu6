@@ -1,0 +1,18 @@
+{
+ "ref": "035001172060A",
+ "refDisplay": "0350 01 172060A",
+ "title": "SURALIMENTATION RACCORD D’AIR",
+ "nature": "",
+ "applicability": "BVM ML5T DEPUIS OPR 07392",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0014"
+  }
+ ]
+}

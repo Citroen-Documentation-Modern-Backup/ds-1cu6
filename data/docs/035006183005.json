@@ -1,0 +1,18 @@
+{
+ "ref": "035006183005",
+ "refDisplay": "0350 06 183005",
+ "title": "COLLECTEUR CATALYSEUR ECHAPP AV",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0011"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ref": "035001330014",
+ "refDisplay": "0350 01 330014",
+ "title": "BOITE DE VITESSES MECANIQUE",
+ "nature": "",
+ "applicability": "BVM BE4R ET CP 14 X 62",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F6V",
+   "fctId": "FCT0017"
+  }
+ ]
+}

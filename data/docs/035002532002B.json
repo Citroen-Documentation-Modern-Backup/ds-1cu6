@@ -1,0 +1,18 @@
+{
+ "ref": "035002532002B",
+ "refDisplay": "0350 02 532002B",
+ "title": "ALTERNATEUR ET FIXATIONS",
+ "nature": "",
+ "applicability": "DIRECTION ASSISTEE ET REFRIGERATION JUSQU’A OPR 07389",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0303"
+  }
+ ]
+}

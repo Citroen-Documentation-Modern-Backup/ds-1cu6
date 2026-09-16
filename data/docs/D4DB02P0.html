@@ -1,0 +1,741 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4DB02P0</td><td class="title">Diagnostic  : Centrale de protection de l’habitacle (CPH)</td></tr></tbody></table></div><div id="appl" class="section_appl">VERROUILLAGE SUPER CONDAMNATION ET TRANSPONDEUR ET ALARME VOLUME+PERIMET-STANDARD OU VERROUILLAGE SIMPLE CONDAMNATION ET TRANSPONDEUR DEPUIS OPR 7511</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Outillage de diagnostic</div></div>
+<div class="cha2"><div class="sti2">1.1. Boîtier ELIT : 4125-T</div></div>
+<div class="tli">L’outil  permet : 
+<ul>
+<li>L’identification de la CPH</li>
+<li>La lecture des 15 dernières causes de déclenchement de l’alarme</li>
+<li>L’effacement des 15 dernières causes de déclenchement de l’alarme</li>
+<li>Les mesures des paramètres</li>
+<li>Le test des actionneurs</li>
+<li>L’apprentissage des clés et des télécommandes</li>
+<li>L’initialisation des calculateurs (après remplacement)</li>
+<li>L’initialisation de la CPH avec le calculateur moteur (après remplacement de la CPH et du calculateur)</li>
+<li>Le télécodage de la CPH</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">1.2. Boîte à bornes : 4109-T</div></div>
+<div class="par">L’outil, associé au faisceau  C 1237, permet la lecture des tensions et des résistances.</div><div class="cha2"><div class="sti2">1.3. Station PROXIA : 4165-T</div></div>
+<div class="tli">L’outil  permet : 
+<ul>
+<li>L’identification de la CPH</li>
+<li>La lecture des 15 dernières causes de déclenchement de l’alarme</li>
+<li>L’effacement des 15 dernières causes de déclenchement de l’alarme</li>
+<li>Les mesures des paramètres</li>
+<li>Le test des actionneurs</li>
+<li>L’apprentissage des clés et des télécommandes</li>
+<li>L’initialisation des calculateurs (après remplacement)</li>
+<li>La consultation des schémas électriques</li>
+<li>L’initialisation de la CPH avec le calculateur moteur (après remplacement de la CPH et du calculateur)</li>
+<li>Le télécodage de la CPH (configuration)</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">1.4. Station LEXIA : 4171-T</div></div>
+<div class="tli">L’outil  permet : 
+<ul>
+<li>L’identification de la CPH</li>
+<li>La lecture des 15 dernières causes de déclenchement de l’alarme</li>
+<li>L’effacement des 15 dernières causes de déclenchement de l’alarme</li>
+<li>Les mesures des paramètres</li>
+<li>Le test des actionneurs</li>
+<li>L’apprentissage des clés et des télécommandes</li>
+<li>L’initialisation des calculateurs (après remplacement)</li>
+<li>La consultation des schémas électriques</li>
+<li>L’initialisation de la CPH avec le calculateur moteur (après remplacement de la CPH et du calculateur)</li>
+<li>Le télécodage de la CPH</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">2. Contrôles préliminaires</div></div>
+<div class="cha2"><div class="sti2">2.1. Avant toute intervention</div></div>
+<div class="tli">Vérifier : 
+<ul>
+<li>La tension de la batterie</li>
+<li>Le boîtier fusibles ( BF00) : Fusibles F15, F14, F2</li>
+<li>La centrale de protection habitacle : Alimentations (+ et -)</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">2.2. Contrôle alimentation + permanent</div></div>
+<div class="par">Entre les bornes  1 et 13 du connecteur 15 voies noir (bornes 27 et 39 de la boîte à bornes) : U ≈ U batterie.</div><div class="par">Entre les bornes   4 et 13 du connecteur 15 voies noir (bornes 30 et 39 de la boîte à bornes) : U ≈ U batterie.</div><div class="cha2"><div class="sti2">2.3. Contrôle alimentation + après-contact</div></div>
+<div class="par">Entre les bornes  5 et 13 du connecteur 15 voies noir (bornes 31 et 39 de la boîte à bornes) : U ≈ U batterie.</div><div class="cha1"><div class="sti1">3. Fonction transpondeur</div></div>
+<div class="cha2"><div class="sti2">3.1. Test des éléments</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="5">Module analogique du transpondeur</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes implantation</td>
+<td colspan="1" rowspan="1">Connecteurs sur calculateur</td>
+<td colspan="1" rowspan="1">Numéro boîte à bornes</td>
+<td colspan="1" rowspan="1">Bornes sur organe</td>
+<td colspan="1" rowspan="1">Valeurs de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Module analogique du transpondeur  (8220)</td>
+<td colspan="1" rowspan="4">Branché</td>
+<td colspan="1" rowspan="2">12 - 21 (26 voies jaune)</td>
+<td colspan="1" rowspan="2">5 - 1 (6 voies noir)</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre . Contrôler la tension d’alimentation de l’élément : U = U batterie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon : Contrôler continuité et isolement fils entre les bornes 12 et 5. Contrôler continuité et isolement fils entre les bornes 21 et 1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">23 - 21 (26 voies jaune)</td>
+<td colspan="1" rowspan="2">4 - 1 (6 voies noir)</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contrôler la tension de l’élément : Retirer la clé du contacteur : U = 0 V. Placer la clé de contact en position "+ APC" sur l’antivol : U &gt; 1,5 volts (pendant une courte durée) , Puis U = 0 V. Sinon : Contrôler continuité et isolement fils entre les bornes 23 et 4</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">3.2. Contrôle du verrouillage du calculateur moteur</div></div>
+<div class="par">En utilisant un écran de clé  : En intercalant un écran métallique entre l’antenne du module analogique et la puce électronique contenue dans la clé on empêche la lecture de celle-ci. On peut ainsi simuler une clé défectueuse. Cet écran peut être réalisé en utilisant un bouchon (1) de protection de filetage de sphère de suspension percé en son centre au diamètre de 8 mm.</div><div id="d4bp00bc_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/bc/d4bp/d4bp00bc.avif" class="image" height="300" width="300" id="d4bp00bc_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4bp00bc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/bc/d4bp/d4bp00bc.avif" data-figure="1"><img id="d4bp00bc_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Procédure à effectuer : 
+<ul>
+<li>Couper le contact</li>
+<li>Ouvrir la porte conducteur et attendre       10 secondes (arrêt du bruiteur d’oubli clé)</li>
+<li>Introduire la clé dans l’orifice de l’écran</li>
+<li>Mettre le contact avec l’ensemble clé + écran</li>
+<li>Le démarrage du moteur est impossible si le calculateur est bien verrouillé</li>
+</ul>
+</div>
+<div class="tli">Par suppression de l’information contact mis   (Procédure à effectuer) : 
+<ul>
+<li>Couper le contact</li>
+<li>Ouvrir la porte conducteur et attendre 10 secondes</li>
+<li>Enlever le fusible F14</li>
+<li>Mettre le contact</li>
+<li>Tenter un démarrage</li>
+<li>Le démarrage du moteur est impossible si le calculateur est bien verrouillé</li>
+</ul>
+</div>
+<div class="tli">Par la LED pour les véhicules équipés d’une alarme : 
+<ul>
+<li>Dans le cas d’un véhicule équipé d’une alarme et suivant la configuration de la CPH   (télécodage) : La LED alarme peut également servir à visualiser l’état du calculateur moteur</li>
+<li>Contact coupé : La LED reste éteinte puis se met à clignoter 10 secondes après l’ouverture de la porte conducteur. Le clignotement lent de la LED (1 Hz) indique que la CPH a été informée de l’état verrouillé du calculateur moteur</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Ce clignotement continue tant que la CPH n’a pas reçu l’information que le calculateur moteur est déverrouillé. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : À la coupure du contact     : La LED clignote immédiatement dans le cas où la CPH n’a pas reçu l’information sur l’état déverrouillé du calculateur moteur. </div></div>
+<div class="cha2"><div class="sti2">3.3. Symptômes liés à la fonction antidémarrage</div></div>
+<div class="par">L’outil de diagnostic ne rentre pas en relation avec la CPH  : Voir chapitre 3.4.</div><div class="par">Le calculateur moteur n’est pas verrouillé   (véhicule non protégé) : Voir chapitre 4.</div><div class="par">Se reporter au chapitre   5 pour les procédures de contrôle du verrouillage.</div><div class="par">Le moteur ne démarre pas   : Voir chapitre 4.1.</div><div class="par">Le moteur ne s’arrête pas à la coupure du contact   : Voir chapitre 4.2.</div><div class="cha2"><div class="sti2">3.4. L’outil de diagnostic ne rentre pas en relation avec la CPH</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Lorsque on interroge le diagnostic de la CPH avec un outil de diagnostic . Aucune activation des moteurs des serrures du véhicule ne se produit. L’outil de diagnostic annonce l’échec de la mise en relation avec le calculateur</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Causes possibles du défaut</td>
+<td colspan="1" rowspan="1">Méthode de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Liaison avec prise diagnostic défectueuse</td>
+<td colspan="1" rowspan="1">Brancher la boîte à bornes sur la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contrôler la continuité et l’isolement de la liaison entre la borne 11 de la prise diagnostic et la borne 11 du connecteur 26 voies jaune de la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vérifier également le bon fonctionnement de l’outil de diagnostic</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Centrale de protection habitacle défectueuse</td>
+<td colspan="1" rowspan="1">Brancher la boîte à bornes sur la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vérifier l’alimentation en plus permanent entre les bornes 4 et 13 et entre les bornes 1 et 13 du connecteur 15 voies noir de la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vérifier l’alimentation en +APC entre les bornes 5 et 13 du connecteur 15 voies noir de la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon : Vérifier les fusibles F2, F14 et F15</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">4. Le calculateur moteur n’est pas verrouillé (véhicule non protégé)</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Le voyant portes ouvertes ne s’allume pas lorsque seule la porte conducteur est ouverte</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Causes possibles du défaut</td>
+<td colspan="1" rowspan="1">Méthode de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">L’outil de diagnostic dialogue avec la CPH</td>
+<td colspan="1" rowspan="1">La CPH n’est pas fonctionnelle pendant le dialogue avec l’outil de diagnostic</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Le diagnostic CPH doit être terminé, lors de la constatation d’absence de verrouillage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Pas d’information porte conducteur ouverte</td>
+<td colspan="1" rowspan="1">Vérifier la liaison avec la serrure de la porte conducteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">En l’absence de l’information porte conducteur  : Le verrouillage du calculateur moteur s’effectue 5 minutes après la coupure du contact</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">L’ouverture de la porte conducteur provoque l’allumage du voyant portes ouvertes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Causes possibles du défaut</td>
+<td colspan="1" rowspan="1">Méthode de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Le calculateur moteur n’est pas initialisé</td>
+<td colspan="1" rowspan="1">Dans le diagnostic CPH, sélectionner l’initialisation du calculateur moteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Il est nécessaire de disposer du code d’accès véhicule inscrit sur la carte confidentielle client</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Après être sorti du diagnostic, contrôler le bon fonctionnement du voyant et s’assurer que la CPH verrouille bien le calculateur moteur   (voir chapitre 3.2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">La CPH n’est pas initialisée</td>
+<td colspan="1" rowspan="1">Avec l’outil de diagnostic en lecture paramètres : Vérifier que l’initialisation de la CPH est correcte (nombre de clés apprises non nul )</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon procéder à une initialisation CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Il est nécessaire de disposer du code d’accès véhicule inscrit sur la carte confidentielle client et de disposer de toutes les clés du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Après être sorti du diagnostic, contrôler le bon fonctionnement du voyant et s’assurer que la CPH verrouille bien le calculateur moteur (voir chapitre 3.2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="8">Pas de réalimentation du calculateur moteur après la coupure du contact</td>
+<td colspan="1" rowspan="1">Brancher la boîte à bornes sur la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contact coupé, porte conducteur fermée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">On doit avoir 0 volt sur la borne 7 du connecteur 26 voies jaune de la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Porte conducteur ouverte</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">La CPH doit réalimenter le calculateur 10 secondes après la coupure du contact</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">On doit avoir U ð 12 volts pendant une seconde environ</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contrôler la continuité et l’isolement par rapport à la masse de la ligne de réalimentation ainsi que le relais de réalimentation (si équipé)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Si la CPH est défectueuse et que le véhicule est équipé d’un relais de réalimentation, remplacer également celui-ci</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Pas de dialogue entre la CPH et le calculateur moteur</td>
+<td colspan="1" rowspan="1">Contrôler la continuité et l’isolement par rapport à la masse entre la borne 6 du connecteur 26 voies jaune de la CPH et le calculateur moteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vérifier au voltmètre que l’on détecte bien une activité sur la borne 6 lors de la phase de verrouillage</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> :   (*) Si la procédure d’apprentissage est interrompue : Le nombre de clés apprises peut ne pas être nul alors que la CPH n’est pas initialisée. </div></div>
+<div class="cha2"><div class="sti2">4.1. Le moteur ne démarre pas</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Causes possibles du défaut</td>
+<td colspan="1" rowspan="1">Méthode de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="10">Clé défectueuse ou non reconnue</td>
+<td colspan="1" rowspan="1">Mettre le contact avec les autres clés</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Si aucune des clés du véhicule ne permettent de démarrer le moteur  : Il peut s’agir d’un problème d’antenne ou de CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vérifier que le connecteur d’antenne est bien branché</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Si c’est le cas : Brancher la boîte à bornes sur la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contrôler le module analogique du transpondeur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Si une autre clé démarre le moteur : La clé est défectueuse ou non apprise</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Effectuer un apprentissage des clés</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Il est nécessaire de disposer du code d’accès véhicule inscrit sur la carte confidentielle client et de disposer de toutes les clés du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">La procédure d’apprentissage s’interrompt dès qu’une clé défectueuse est détectée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Refaire l’apprentissage des clés sans la clé défectueuse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Pas d’alimentation du calculateur moteur</td>
+<td colspan="1" rowspan="1">Brancher la boîte à bornes sur le calculateur d’injection et vérifier qu’il est alimenté</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contrôler les fusibles et le relais double</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Dans le cas d’un module pompe diesel utiliser le câble de test ADC pour contrôler l’alimentation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Pas d’information +APC</td>
+<td colspan="1" rowspan="1">Avec l’outil de diagnostic en lecture paramètres : Vérifier que la CPH reçoit bien l’information +APC</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon : Vérifier le fusible F2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Si le fusible est bon : Brancher la boîte à bornes sur la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Le +APC doit être présent sur la borne 5 du connecteur 15 voies noir</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">À la mise du contact   , La condamnation par plip n’est pas possible</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Causes possibles du défaut</td>
+<td colspan="1" rowspan="1">Méthode de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">L’outil de diagnostic dialogue avec la CPH</td>
+<td colspan="1" rowspan="1">La CPH n’est pas fonctionnelle pendant le dialogue avec l’outil de diagnostic</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Le diagnostic CPH doit être terminé, lors de la constatation d’absence de démarrage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">La CPH n’est pas initialisée</td>
+<td colspan="1" rowspan="1">Avec l’outil de diagnostic en lecture paramètres : Vérifier que l’initialisation de la CPH est correcte (nombre de clés apprises non nul )</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon procéder à une initialisation CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Il est nécessaire de disposer du code d’accès véhicule inscrit sur la carte confidentielle client et de disposer de toutes les clés du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Après être sorti du diagnostic, contrôler le bon fonctionnement du voyant et s’assurer que la CPH verrouille bien le calculateur moteur (voir chapitre 3.2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">Centrale de protection habitacle défectueuse</td>
+<td colspan="1" rowspan="1">Brancher la boîte à bornes sur la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vérifier l’alimentation en plus permanent entre les bornes 4 et 13 et entre les bornes 1 et 13 du connecteur 15 voies noir de la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vérifier l’alimentation en +APC entre les bornes 5 et 13 du connecteur 15 voies noir de la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon : Vérifier les fusibles F2, F14 et F15</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> :   (*) Si la procédure d’apprentissage est interrompue : Le nombre de clés apprises peut ne pas être nul alors que la CPH n’est pas initialisée. </div></div>
+<div class="cha2"><div class="sti2">4.2. Le moteur ne s’arrête pas à la coupure du contact</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Causes possibles du défaut</td>
+<td colspan="1" rowspan="1">Méthode de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Le relais de réalimentation est défectueux  (si équipé)</td>
+<td colspan="1" rowspan="1">Vérifier que le contact du relais n’est pas bloqué</td>
+</tr><tr valign="top"><td colspan="1" rowspan="5">La CPH commande en permanence la réalimentation du calculateur moteur</td>
+<td colspan="1" rowspan="1">Brancher la boîte à bornes sur la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contact coupé, porte conducteur fermée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">On doit avoir 0 volt sur la borne 7 du connecteur 26 voies jaune de la CPH</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contrôler l’isolement par rapport au +12 volts de la ligne de réalimentation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Si la CPH est défectueuse et que le véhicule est équipé d’un relais de réalimentation, remplacer également celui-ci</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">5. Fonction de condamnation/décondamnation et supercondamnation</div></div>
+<div class="cha2"><div class="sti2">5.1. Test des éléments</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="5">Contacteurs feuillures portes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes implantation</td>
+<td colspan="1" rowspan="1">Connecteurs sur calculateur</td>
+<td colspan="1" rowspan="1">Numéro boîte à bornes</td>
+<td colspan="1" rowspan="1">Bornes sur organe</td>
+<td colspan="1" rowspan="1">Valeurs de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contacteur porte conducteur  (6202)</td>
+<td colspan="1" rowspan="3">Branché</td>
+<td colspan="1" rowspan="1">3 - 1 (26 voies jaune)</td>
+<td colspan="1" rowspan="1">6 - 4</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contacteur porte passager (6207)</td>
+<td colspan="1" rowspan="1">13 (15 voies noir)</td>
+<td colspan="1" rowspan="1">6 - 4</td>
+<td colspan="1" rowspan="1">Lors de la scrutation de l’entrée par la CPH : U ð U batterie = Porte fermée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contacteur porte arrière droite (6217)</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">(9 voies marron)</td>
+<td colspan="1" rowspan="1">Sinon : U ≈ 0 V = Porte  ouverte</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contacteur porte arrière gauche (6212)</td>
+<td colspan="1" rowspan="3">Débranché</td>
+<td colspan="1" rowspan="1">2 - 14 (26 voies jaune)</td>
+<td colspan="1" rowspan="1">1 - 3</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Ohmmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">13 (15 voies noir)</td>
+<td colspan="1" rowspan="1">1 - 3</td>
+<td colspan="1" rowspan="1">R &gt; 10 kohms : Porte fermée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">(5 voies marron)</td>
+<td colspan="1" rowspan="1">R &lt; 100 ohms : Porte  ouverte</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="5">Contact de verrouillage à la clé   (véhicule avec supercondamnation uniquement)</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes implantation</td>
+<td colspan="1" rowspan="1">Connecteurs sur calculateur</td>
+<td colspan="1" rowspan="1">Numéro boîte à bornes</td>
+<td colspan="1" rowspan="1">Bornes sur organe</td>
+<td colspan="1" rowspan="1">Valeurs de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contact de verrouillage à la clé :</td>
+<td colspan="1" rowspan="9">Branché</td>
+<td colspan="1" rowspan="1">17 / 13</td>
+<td colspan="1" rowspan="1">9 / 4</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Gauche (6202)</td>
+<td colspan="1" rowspan="1">4 / 13</td>
+<td colspan="1" rowspan="1">5 / 4</td>
+<td colspan="1" rowspan="1">Clé en position verrouillage :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Droit (6207)</td>
+<td colspan="1" rowspan="1">Bornes 17 et 4 : Connecteur 26 voies jaune </td>
+<td colspan="1" rowspan="1">Bornes 4, 5 et 9 : Connecteur 9 voies marron </td>
+<td colspan="1" rowspan="1"> entre bornes 17 et 13 , U &lt; 1,5 Volts</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Borne 13 : Connecteur 15 voies noir </td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1"> entre bornes 4 et 13 , U &gt; 10 Volts</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Clé en position déverrouillage :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1"> entre bornes 17 et 13 , U &gt; 10 Volts</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1"> entre bornes 4 et 13 , U &lt; 1,5 Volts</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Au repos :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1"> entre bornes 17-13 et 4-13 : U &gt; 10 Volts</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="3">Débranché</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Ohmmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Clé en position verrouillage : R = 0 Ω</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Autres positions : R = infini</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="5">Moteurs de condamnation</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes implantation</td>
+<td colspan="1" rowspan="1">Connecteurs sur calculateur</td>
+<td colspan="1" rowspan="1">Numéro boîte à bornes</td>
+<td colspan="1" rowspan="1">Bornes sur organe</td>
+<td colspan="1" rowspan="1">Valeurs de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Moteurs de condamnation   :</td>
+<td colspan="1" rowspan="3">Branché</td>
+<td colspan="1" rowspan="1">Décondamnation :</td>
+<td colspan="1" rowspan="1"> portes avant :</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Portes (6250 - 6252 - 6255 - 6257)</td>
+<td colspan="1" rowspan="1">8 / 13</td>
+<td colspan="1" rowspan="1">1 / 3</td>
+<td colspan="1" rowspan="1">Commande de décondamnation ,  entre bornes 8 et 13 : U ≈ U batterie (pendant 0,7 seconde)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Hayon (6260)</td>
+<td colspan="1" rowspan="1">(15 voies noir)</td>
+<td colspan="1" rowspan="1">(3 voies noir)</td>
+<td colspan="1" rowspan="1">Sinon : U = 0 V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Trappe à carburant (6265)</td>
+<td colspan="1" rowspan="3">Débranché</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Portes arrière  :</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Ohmmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">1 / 3</td>
+<td colspan="1" rowspan="1">Contrôler la continuité et l’isolement par rapport à la masse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">(3 voies noir)</td>
+<td colspan="1" rowspan="1">Tous moteurs de condamnation connectés : R &gt; 0,5 ohm</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="3">Branché</td>
+<td colspan="1" rowspan="1">Condamnation :</td>
+<td colspan="1" rowspan="1"> portes avant :</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">14 / 13</td>
+<td colspan="1" rowspan="1">1 / 3</td>
+<td colspan="1" rowspan="1">Commande de décondamnation ,  entre bornes 14 et 13 : U ≈ U batterie (pendant 0,5 seconde)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">(15 voies noir)</td>
+<td colspan="1" rowspan="1">(3 voies noir)</td>
+<td colspan="1" rowspan="1">Sinon : U = 0 V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="3">Débranché</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Portes arrière  :</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Ohmmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">1 / 3</td>
+<td colspan="1" rowspan="1">Contrôler la continuité et l’isolement par rapport à la masse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">(3 voies noir)</td>
+<td colspan="1" rowspan="1">Tous moteurs de condamnation connectés : R &gt; 0,5 ohm</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Moteurs de supercondamnation :</td>
+<td colspan="1" rowspan="3">Branché</td>
+<td colspan="1" rowspan="1">Supercondamnation  :</td>
+<td colspan="1" rowspan="1"> portes avant :</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Portes (6202 - 6207)</td>
+<td colspan="1" rowspan="1">11 / 13</td>
+<td colspan="1" rowspan="1">8 / 4</td>
+<td colspan="1" rowspan="1">Commande de supercondamnation ,  entre bornes 11 et 13 14 et 13 : U ≈ U batterie (pendant 0,5 seconde)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">14 / 13</td>
+<td colspan="1" rowspan="1">7 / 4 (9 voies marron)</td>
+<td colspan="1" rowspan="1">Sinon : U = 0 V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="3">Débranché</td>
+<td colspan="1" rowspan="1">(15 voies noir)</td>
+<td colspan="1" rowspan="1">Portes arrière  :</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Ohmmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">2 / 3</td>
+<td colspan="1" rowspan="1">Contrôler la continuité et l’isolement par rapport à la masse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">4 / 3 (5 voies marron)</td>
+<td colspan="1" rowspan="1">Tous moteurs de condamnation connectés : R &gt; 0,5 ohm</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="5">Bouton de frise de condamnation/décondamnation</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes implantation</td>
+<td colspan="1" rowspan="1">Connecteurs sur calculateur</td>
+<td colspan="1" rowspan="1">Numéro boîte à bornes</td>
+<td colspan="1" rowspan="1">Bornes sur organe</td>
+<td colspan="1" rowspan="1">Valeurs de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Bouton de condamnation   :</td>
+<td colspan="1" rowspan="3">Branché</td>
+<td colspan="1" rowspan="1">18 / 13</td>
+<td colspan="1" rowspan="1">3 / 4</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Dans serrure avant gauche (6202)</td>
+<td colspan="1" rowspan="1">18 (26 voies jaune)</td>
+<td colspan="1" rowspan="1">3 (9 voies marron)</td>
+<td colspan="1" rowspan="1">Repère noir : U = 0 V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">13 (15 voies noir)</td>
+<td colspan="1" rowspan="1">4 (9 voies marron)</td>
+<td colspan="1" rowspan="1">Repère rouge : U = 12 V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="3">Débranché</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Ohmmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Repère noir : R = 0 Ω</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Repère rouge : R = infini</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Bouton de condamnation :</td>
+<td colspan="1" rowspan="3">Branché</td>
+<td colspan="1" rowspan="1">5 / 13</td>
+<td colspan="1" rowspan="1">3 / 4</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Dans serrure avant droite (6207)</td>
+<td colspan="1" rowspan="1">5 (26 voies jaune)</td>
+<td colspan="1" rowspan="1">3 (9 voies marron)</td>
+<td colspan="1" rowspan="1">Repère noir : U = 0 V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">13 (15 voies noir)</td>
+<td colspan="1" rowspan="1">4 (9 voies marron)</td>
+<td colspan="1" rowspan="1">Repère rouge : U = 10 V</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="3">Débranché</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Ohmmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Repère noir : R = 0 Ω</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Repère rouge : R = infini</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">5.2. Recherche de pannes</div></div>
+<div class="par">Fermer toutes les portes du véhicule.</div><div class="par">Contrôler le fonctionnement de la condamnation avec la télécommande et avec les serrures de chacune des portes avant    , Puis se référer au chapitre correspondant.</div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="3">Symptôme   : Condamnation impossible avec la clé</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Cas </td>
+<td colspan="1" rowspan="1">Symptôme</td>
+<td colspan="1" rowspan="1">Remède</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1er cas</td>
+<td colspan="1" rowspan="1">On peut condamner le véhicule par la serrure de l’une des portes</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">2ème cas</td>
+<td colspan="1" rowspan="4">Aucune condamnation possible à partir des 2 portes avant</td>
+<td colspan="1" rowspan="1">Contrôler  :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Les contacteurs de portes avant.</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Les contacts de verrouillage à clé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Les moteurs de condamnation</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="3">Symptôme   : Pas de condamnation avec la télécommande</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Cas </td>
+<td colspan="1" rowspan="1">Symptôme</td>
+<td colspan="1" rowspan="1">Remède</td>
+</tr><tr valign="top"><td colspan="1" rowspan="7">1er cas</td>
+<td colspan="1" rowspan="7">La condamnation est impossible avec la télécommande mais possible avec la clé</td>
+<td colspan="1" rowspan="1">Contrôler  :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">La pile de la télécommande</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">L’apprentissage des codes télécommande(s) :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contact mis , Effectuer une synchronisation en appuyant sur le bouton de la télécommande</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon , Élément(s) défectueux :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Télécommande</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Centrale de protection de l’habitacle (CPH)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">2ème cas</td>
+<td colspan="1" rowspan="4">Aucune condamnation possible</td>
+<td colspan="1" rowspan="1">Contrôler  :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Les contacteurs de portes avant.</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Les moteurs de condamnation.</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">La centrale de protection habitacle (+ permanent et masse)</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Lorsque la pile est usée, le voyant "porte ouverte" clignote à une fréquence de   2,5 Hz pendant 10 s à la mise du contact. </div></div>
+<div class="tli">Symptôme   : Condamnation/décondamnation immédiate après commande : Dans ce cas , Contrôler  : 
+<ul>
+<li>Les contacteurs de portes avant. Voir chapitre 5.1</li>
+<li>Les boutons de condamnation. Voir chapitre 5.1</li>
+<li>Les contacts de verrouillage à clé. Voir chapitre 5.1</li>
+<li>Les moteurs de condamnation. Voir chapitre 5.1</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">6. Fonction alarme (véhicules pays grand froid)</div></div>
+<div class="cha2"><div class="sti2">6.1. Test des éléments</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="5">LED alarme </th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes implantation</td>
+<td colspan="1" rowspan="1">Connecteurs sur calculateur</td>
+<td colspan="1" rowspan="1">Numéro boîte à bornes</td>
+<td colspan="1" rowspan="1">Bornes sur organe</td>
+<td colspan="1" rowspan="1">Valeurs de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="5">LED alarme (8606)</td>
+<td colspan="1" rowspan="1">Branché</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Lancer une séquence d’activation à l’aide de l’outil de diagnostic : La LED s’allume</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Débranché</td>
+<td colspan="1" rowspan="2">12 (15 voies noir)</td>
+<td colspan="1" rowspan="2">2 (2 voies)</td>
+<td colspan="1" rowspan="1">Sinon : Mettre la borne 12 à la masse . La LED s’allume</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon : Contrôler continuité et isolement fils entre les bornes 12 et 2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Branché</td>
+<td colspan="1" rowspan="2">12 / 13 (15 voies noir)</td>
+<td colspan="1" rowspan="2">2 / 1 (2 voies)</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre . Lancer une séquence d’activation à l’aide de l’outil de diagnostic</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">LED allumée : U &lt; 1,5 Volts. LED  éteinte : U = 12 V</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="5">Sirène </th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes implantation</td>
+<td colspan="1" rowspan="1">Connecteurs sur calculateur</td>
+<td colspan="1" rowspan="1">Numéro boîte à bornes</td>
+<td colspan="1" rowspan="1">Bornes sur organe</td>
+<td colspan="1" rowspan="1">Valeurs de contrôle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="8">Sirène (8605)</td>
+<td colspan="1" rowspan="1">Branché</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Lancer une séquence d’activation à l’aide de l’outil de diagnostic : La sirène doit émettre un son</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Débranché</td>
+<td colspan="1" rowspan="2">10 (26 voies jaune)</td>
+<td colspan="1" rowspan="2">3 (4 voies)</td>
+<td colspan="1" rowspan="1">Sinon , Vérification de la sirène et de la connectique associée : Mettre la borne 10 à la masse  : La sirène doit émettre un son</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon : Contrôler continuité et isolement fils entre les bornes 10 et 3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="5">Branché</td>
+<td colspan="1" rowspan="1">10 / 13</td>
+<td colspan="1" rowspan="1">3 / 4</td>
+<td colspan="1" rowspan="1">Appareil(s) de contrôle : Voltmètre </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">10 (26 voies jaune)</td>
+<td colspan="1" rowspan="1">(4 voies)</td>
+<td colspan="1" rowspan="1">Vérification du signal de commande de la sirène</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">13 (15 voies noir)</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Lancer une séquence d’activation à l’aide de l’outil de diagnostic :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Sirène active : U &lt; 1,5 Volts</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Sirène muette : U = 12 V</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">6.2. Recherche de pannes</div></div>
+<div class="par">Symptôme  : Déclenchements intempestifs.</div><div class="par">À l’aide de l’outil de diagnostic  , Consulter la liste des 15 derniers déclenchements d’alarme et contrôler l’élément qui apparaît le plus souvent.</div><div class="par">La dernière cause de déclenchement de l’alarme est affichée en premier.</div><div class="cha1"><div class="sti1">7. Procédure d’initialisation (apprentissage)</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Pour effectuer l’ensemble des procédures d’apprentissage, il est nécessaire de disposer du code d’accès véhicule inscrit sur la carte confidentielle client. </div></div>
+<div class="cha2"><div class="sti2">7.1. Apprentissage    :  clés</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : La procédure d’apprentissage efface tous les codes (clés et télécommandes) de la mémoire de la centrale de protection habitacle. </div></div>
+<div class="par">Utiliser l’outil de diagnostic    , Sélectionner le menu  : "APPRENTISSAGE DES CLÉS".</div><div class="par">Valider.</div><div class="par">Saisir le code d’accès figurant sur la carte confidentielle client.</div><div class="tli">Apprentissage       : Codes transpondeurs : 
+<ul>
+<li>Saisir le nombre de clés à apprendre</li>
+<li>Valider</li>
+<li>Couper le contact (A)</li>
+<li>Retirer la clé de l’antivol</li>
+<li>Valider</li>
+</ul>
+</div>
+<div class="tli">Dans un délai de   15 secondes : 
+<ul>
+<li>Mettre la clé à apprendre dans l’antivol</li>
+<li>Mettre le contact</li>
+<li>Valider</li>
+</ul>
+</div>
+<div class="par">Un message indique à l’utilisateur que la procédure d’apprentissage de la clé de contact a été correctement effectuée   (selon l’outil, un message indique le nombre de clés déjà apprises ou le numéro de la clé à apprendre).</div><div class="par">Valider.</div><div class="par">Recommencer la procédure avec les autres clés à apprendre     (à partir de l’opération A).</div><div class="tli">Procédure terminée : 
+<ul>
+<li>1er cas   : Appuyer sur la touche "RETOUR" pour revenir au menu initial</li>
+<li>2ème cas : Valider avec  pour effectuer l’apprentissage des télécommandes : Voir chapitre 6.1.2</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La procédure d’apprentissage peut être effectuée autant de fois que nécessaire. </div></div>
+<div class="tli">Lorsque la procédure d’apprentissage a échoué : 
+<ul>
+<li>Consulter la liste des messages d’erreurs</li>
+<li>Appuyer sur la touche "RETOUR" pour revenir à la procédure     (à partir de l’opération A)</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Liste des messages d’erreurs</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Messages d’erreurs</td>
+<td colspan="1" rowspan="1">Remède</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code d’accès invalide   : Boîtier ELIT. Code d’accès refusé : Station PROXIA = La CPH est verrouillée par un code différent du code de la carte confidentielle client</td>
+<td colspan="1" rowspan="1">Vérifier que la CPH n’a pas été changée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Clé déjà apprise = La clé introduite dans l’antivol a déjà été apprise</td>
+<td colspan="1" rowspan="1">Appuyer sur la touche (*) pour valider. Poursuivre la procédure d’apprentissage avec une autre clé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code non reçu  ou  Problème mise +APC. Coupure +APC</td>
+<td colspan="1" rowspan="1">Délai de 15 secondes non-respecté , Recommencer la procédure. Sinon : Clé avec transpondeur défectueux ou clé sans transpondeur. Antenne défectueuse. Centrale de protection habitacle défectueuse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code incompris</td>
+<td colspan="1" rowspan="1">Le code de la clé reçu par la centrale de protection habitacle ne peut pas être lu correctement. Si aucune des clés ne peut être apprise : Vérifier le fonctionnement du module analogique du transpondeur  ou  Clé défectueuse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">+APC présent lors de la procédure</td>
+<td colspan="1" rowspan="1">Recommencer la procédure : Respecter les instructions de l’outil de diagnostic sur la présence ou non du +APC</td>
+</tr></tbody></table>
+</div>
+<div class="tli">Apprentissage   : Télécommandes haute fréquence : 
+<ul>
+<li>Saisir le nombre de télécommandes à apprendre</li>
+<li>Valider</li>
+</ul>
+</div>
+<div class="tli">Dans un délai de   15 secondes (A) : 
+<ul>
+<li>Appuyer sur le bouton de condamnation de la télécommande</li>
+<li>Valider</li>
+</ul>
+</div>
+<div class="par">Un message indique à l’utilisateur que la procédure d’apprentissage de la télécommande a été correctement effectuée et le nombre de télécommandes déjà apprises   (selon l’outil, un message indique le numéro de la télécommande à apprendre).</div><div class="par">Valider.</div><div class="par">Recommencer la procédure avec les autres télécommandes à apprendre     (à partir de l’opération A).</div><div class="par">Procédure terminée   : Appuyer sur la touche "RETOUR" pour revenir au menu initial.</div><div class="tli">Lorsque la procédure d’apprentissage a échoué : 
+<ul>
+<li>Consulter la liste des messages d’erreurs</li>
+<li>Appuyer sur la touche "RETOUR" pour revenir à la procédure   (à partir de l’opération A)</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Liste des messages d’erreurs</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Messages d’erreurs</td>
+<td colspan="1" rowspan="1">Remède</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Télécommande déjà apprise   = Le code de la télécommande a déjà été appris</td>
+<td colspan="1" rowspan="1">Appuyer sur la touche "RETOUR" pour revenir à la procédure. Recommencer la procédure avec les autres télécommandes à apprendre</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code télécommande non mémorisé : Boîtier ELIT</td>
+<td colspan="1" rowspan="1">L’appui sur un des boutons de la télécommande n’a pas été réalisé dans le délai de 15 secondes : Recommencer la procédure (à partir de l’opération A). Sinon : Pile usée. Télécommande défectueuse. Centrale de protection habitacle défectueuse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code d’accès invalide : Boîtier ELIT</td>
+<td colspan="1" rowspan="1">Recommencer la procédure : Saisir le code d’accès figurant sur la carte confidentielle client</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">7.2. Apprentissage : Calculateur de contrôle moteur</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Lors du remplacement du calculateur moteur, il est nécessaire de laisser le "+APC" avant de débrancher le calculateur. </div></div>
+<div class="par">Utiliser l’outil de diagnostic    , Sélectionner le menu  : "APPRENTISSAGE CALCULATEUR MOTEUR".</div><div class="par">Valider.</div><div class="par">Saisir le code d’accès figurant sur la carte confidentielle client.</div><div class="par">Un message indique à l’utilisateur que la procédure d’apprentissage a été correctement effectuée.</div><div class="par">Valider pour revenir à l’écran de menu initial.</div><div class="par">Lorsque la procédure d’apprentissage a échoué           : Consulter la liste des messages d’erreurs.</div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Liste des messages d’erreurs</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Messages d’erreurs</td>
+<td colspan="1" rowspan="1">Remède</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Initialisation interrompue   : Boîtier PROXIA = Problème lors de la procédure d’apprentissage</td>
+<td colspan="1" rowspan="1">Recommencer la procédure d’initialisation du calculateur. Si le problème se reproduit : Contrôler que le calculateur moteur est neuf et compatible avec le système d’antidémarrage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut d’apprentissage transpondeur</td>
+<td colspan="1" rowspan="1">Aucun code clé n’est mémorisé dans la centrale de protection habitacle : Procéder à l’apprentissage des clés avant l’apprentissage du calculateur moteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code d’accès invalide : Boîtier ELIT = La centrale de protection habitacle montée sur le véhicule est verrouillée par un code d’accès différent de celui présent sur la carte confidentielle du client</td>
+<td colspan="1" rowspan="1">Vérifier que la centrale de protection habitacle ne provient pas d’un autre véhicule</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">7.3. Apprentissage : Centrale de protection de l’habitacle (CPH)</div></div>
+<div class="par">Utiliser l’outil de diagnostic  , Sélectionner le menu  : "APPRENTISSAGE CPH".</div><div class="par">Valider.</div><div class="par">Saisir le code d’accès figurant sur la carte confidentielle client.</div><div class="par">Saisir la configuration du véhicule       (voir tableau ci-dessous).</div><div class="par">Valider.</div><div class="par">Effectuer l’apprentissage des clés et des télécommandes.</div><div class="par">Un message indique à l’utilisateur que la procédure d’apprentissage a été correctement effectuée.</div><div class="par">Valider pour revenir à l’écran de menu initial.</div><div class="tli">Lorsque la procédure d’apprentissage a échoué : 
+<ul>
+<li>Consulter la liste des messages d’erreurs</li>
+<li>Appuyer sur la touche "RETOUR" pour revenir à la procédure</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Liste des messages d’erreurs</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Messages d’erreurs</td>
+<td colspan="1" rowspan="1">Remède</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut d’apprentissage transpondeur             = Aucun code clé n’est mémorisé dans la centrale de protection habitacle</td>
+<td colspan="1" rowspan="1">Effectuer l’apprentissage des clés et des télécommandes. Recommencer la procédure</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code d’accès invalide : Boîtier ELIT = La centrale de protection habitacle montée sur le véhicule est verrouillée par un code d’accès différent de celui présent sur la carte confidentielle du client</td>
+<td colspan="1" rowspan="1">Vérifier que la centrale de protection habitacle ne provient pas d’un autre véhicule</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">7.4. Apprentissage : Centrale de protection de l’habitacle et calculateur de contrôle moteur</div></div>
+<div class="par">Utiliser l’outil de diagnostic  , Sélectionner le menu  : "APPRENTISSAGE CPH ET ECM".</div><div class="par">Valider.</div><div class="par">Saisir le code d’accès figurant sur la carte confidentielle client.</div><div class="par">Saisir la configuration du véhicule       (voir tableau ci-dessous).</div><div class="par">Valider.</div><div class="par">Effectuer l’apprentissage des clés et des télécommandes.</div><div class="par">Un message indique à l’utilisateur que la procédure d’apprentissage a été correctement effectuée.</div><div class="par">Valider pour revenir à l’écran de menu initial.</div><div class="tli">Lorsque la procédure d’apprentissage a échoué : 
+<ul>
+<li>Consulter la liste des messages d’erreurs</li>
+<li>Appuyer sur la touche "RETOUR" pour revenir à la procédure</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Liste des messages d’erreurs</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Messages d’erreurs</td>
+<td colspan="1" rowspan="1">Remède</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Initialisation interrompue             : Station PROXIA  ou  Défaut de dialogue entre l’ECM et la CPH = Problème lors de la procédure d’apprentissage</td>
+<td colspan="1" rowspan="1">Recommencer la procédure d’initialisation du calculateur. Si le problème se reproduit : Contrôler que le calculateur moteur est neuf et compatible avec le système d’antidémarrage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Défaut d’apprentissage transpondeur = Aucun code clé n’est mémorisé dans la centrale de protection habitacle</td>
+<td colspan="1" rowspan="1">Effectuer l’apprentissage des clés et des télécommandes. Recommencer la procédure</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code d’accès invalide : Boîtier ELIT  ou  Code d’accès refusé : Boîtier PROXIA = La centrale de protection habitacle montée sur le véhicule est verrouillée par un code d’accès différent de celui présent sur la carte confidentielle du client</td>
+<td colspan="1" rowspan="1">Vérifier que la centrale de protection habitacle ne provient pas d’un autre véhicule</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Configuration du véhicule</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">  1</td>
+<td colspan="1" rowspan="1">Supercondamnation . Alarme . Pioup</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2</td>
+<td colspan="1" rowspan="1">Alarme avec supercondamnation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">3</td>
+<td colspan="1" rowspan="1">Supercondamnation . Sans alarme</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4</td>
+<td colspan="1" rowspan="1">Sans alarme. Sans supercondamnation</td>
+</tr></tbody></table>
+</div>
+</div>

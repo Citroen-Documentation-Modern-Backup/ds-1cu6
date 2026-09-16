@@ -1,0 +1,25 @@
+{
+ "ref": "B1BT0VP0",
+ "refDisplay": "B1BT0VP0",
+ "title": "Évolution  : commande des papillons de \"Swirl\"",
+ "nature": "Évolutions",
+ "applicability": " DEPUIS OPR 9103",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0006"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0006"
+  }
+ ]
+}

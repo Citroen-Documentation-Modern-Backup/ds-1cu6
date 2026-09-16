@@ -1,0 +1,18 @@
+{
+ "ref": "035005501840",
+ "refDisplay": "0350 05 501840",
+ "title": "FAISCEAU PLANCHE DE BORD / CONSOLE",
+ "nature": "",
+ "applicability": "NIVEAU 3/5 ET CONDUITE A DROITE JUSQU’A OPR 07846",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0309"
+  }
+ ]
+}

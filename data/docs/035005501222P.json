@@ -1,0 +1,23 @@
+{
+ "ref": "035005501222P",
+ "refDisplay": "0350 05 501222P",
+ "title": "FAISCEAU MOTEUR",
+ "nature": "",
+ "applicability": "DEPOL CEE 95 (MOTEUR) JUSQU’A OPR 08574",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2J",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2J",
+   "fctId": "FCT0308"
+  }
+ ]
+}

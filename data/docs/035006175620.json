@@ -1,0 +1,18 @@
+{
+ "ref": "035006175620",
+ "refDisplay": "0350 06 175620",
+ "title": "BOITIER SONDE TEMPERATURE ECHAPP",
+ "nature": "",
+ "applicability": "CATALYSEUR ET DEPOL CEE 2000 (MOTEUR)",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Q",
+   "fctId": "FCT0012"
+  }
+ ]
+}

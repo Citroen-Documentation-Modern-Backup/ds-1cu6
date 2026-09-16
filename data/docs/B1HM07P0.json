@@ -1,0 +1,25 @@
+{
+ "ref": "B1HM07P0",
+ "refDisplay": "B1HM07P0",
+ "title": "Réparation  : EVASION  2.1 Turbo D",
+ "nature": "Procédure d’intervention",
+ "applicability": " DEPUIS OPR 7070",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0010"
+  }
+ ]
+}

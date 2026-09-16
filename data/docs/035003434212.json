@@ -1,0 +1,23 @@
+{
+ "ref": "035003434212",
+ "refDisplay": "0350 03 434212",
+ "title": "BARRES TORSION AVANT RESSORT",
+ "nature": "",
+ "applicability": "SANS REFRIGERATION",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2J",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2J",
+   "fctId": "FCT0027"
+  }
+ ]
+}

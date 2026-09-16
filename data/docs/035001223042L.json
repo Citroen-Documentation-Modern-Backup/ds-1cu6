@@ -1,0 +1,18 @@
+{
+ "ref": "035001223042L",
+ "refDisplay": "0350 01 223042L",
+ "title": "REMPLISSAGE HUILE DECANTEUR CANALISATION",
+ "nature": "",
+ "applicability": "PAYS GRAND FROID JUSQU’A OPR 07874",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0008"
+  }
+ ]
+}

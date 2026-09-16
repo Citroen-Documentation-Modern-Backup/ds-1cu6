@@ -1,0 +1,18 @@
+{
+ "ref": "035003440502P",
+ "refDisplay": "0350 03 440502P",
+ "title": "CANALISATION TUYAU HP/BP SERVO",
+ "nature": "",
+ "applicability": "DIRECTION ASSISTEE ET CONDUITE A GAUCHE ET REFRIGERATION DEPUIS OPR 07392",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0339"
+  }
+ ]
+}

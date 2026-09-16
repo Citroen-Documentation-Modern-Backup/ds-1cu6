@@ -1,0 +1,18 @@
+{
+ "ref": "035006235945",
+ "refDisplay": "0350 06 235945",
+ "title": "VASE EXPANSION CANALISATION EAU",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0009"
+  }
+ ]
+}

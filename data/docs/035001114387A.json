@@ -1,0 +1,23 @@
+{
+ "ref": "035001114387A",
+ "refDisplay": "0350 01 114387A",
+ "title": "CARTER DE DISTRIBUTION BOUCHONS",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7M",
+   "fctId": "FCT0007"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7M",
+   "fctId": "FCT0007"
+  }
+ ]
+}

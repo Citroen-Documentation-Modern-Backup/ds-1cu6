@@ -1,0 +1,18 @@
+{
+ "ref": "035001223040L",
+ "refDisplay": "0350 01 223040L",
+ "title": "REMPLISSAGE HUILE DECANTEUR CANALISATION",
+ "nature": "",
+ "applicability": "PAYS GRAND FROID",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F5T",
+   "fctId": "FCT0008"
+  }
+ ]
+}

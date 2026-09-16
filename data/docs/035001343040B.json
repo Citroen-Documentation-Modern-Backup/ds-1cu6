@@ -1,0 +1,23 @@
+{
+ "ref": "035001343040B",
+ "refDisplay": "0350 01 343040B",
+ "title": "DIFFERENTIEL BVM",
+ "nature": "",
+ "applicability": "BVM ML5T DEPUIS BOITE 0024273",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F2Y",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2Y",
+   "fctId": "FCT0017"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "ref": "035004314111",
+ "refDisplay": "0350 04 314111",
+ "title": "PEDALE DE FREIN PEDALIER CONTACTEUR STOP",
+ "nature": "",
+ "applicability": "BVM ML5T ET CONDUITE A GAUCHE JUSQU’A OPR 08548",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAG&B0F=B0F7C",
+   "fctId": "FCT0047"
+  },
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F7C",
+   "fctId": "FCT0047"
+  }
+ ]
+}

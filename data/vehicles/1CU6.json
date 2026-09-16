@@ -1,0 +1,175 @@
+{
+ "ldp": "1CU6",
+ "label": "EVASION",
+ "selectors": [
+  {
+   "id": "B0D",
+   "order": 0,
+   "title": "Silhouette",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0DAG",
+     "lib": "BERLINE COMMERCIALE"
+    },
+    {
+     "val": "B0DAF",
+     "lib": "BERLINE FAMILIALE"
+    }
+   ],
+   "optional": false
+  },
+  {
+   "id": "B0F",
+   "order": 1,
+   "title": "Moteur",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0F4Y",
+     "lib": "1.8 i 8v 103"
+    },
+    {
+     "val": "B0F2J",
+     "lib": "1.9 TD"
+    },
+    {
+     "val": "B0F7M",
+     "lib": "2.0 HDi 110"
+    },
+    {
+     "val": "B0F7C",
+     "lib": "2.0 HDi 110 (DW10ATED)"
+    },
+    {
+     "val": "B0F5T",
+     "lib": "2.0 i"
+    },
+    {
+     "val": "B0F2Q",
+     "lib": "2.0 i 16v 135"
+    },
+    {
+     "val": "B0F6V",
+     "lib": "2.0 i 16v 138"
+    },
+    {
+     "val": "B0F2K",
+     "lib": "2.0 i 8v TE"
+    },
+    {
+     "val": "B0F2Y",
+     "lib": "2.1 TD"
+    }
+   ],
+   "optional": false
+  }
+ ],
+ "optional": [],
+ "variants": [
+  {
+   "key": "B0D=B0DAG&B0F=B0F2J",
+   "selections": {
+    "B0D": "B0DAG",
+    "B0F": "B0F2J"
+   },
+   "label": "BERLINE COMMERCIALE · 1.9 TD"
+  },
+  {
+   "key": "B0D=B0DAG&B0F=B0F7M",
+   "selections": {
+    "B0D": "B0DAG",
+    "B0F": "B0F7M"
+   },
+   "label": "BERLINE COMMERCIALE · 2.0 HDi 110"
+  },
+  {
+   "key": "B0D=B0DAG&B0F=B0F7C",
+   "selections": {
+    "B0D": "B0DAG",
+    "B0F": "B0F7C"
+   },
+   "label": "BERLINE COMMERCIALE · 2.0 HDi 110 (DW10ATED)"
+  },
+  {
+   "key": "B0D=B0DAG&B0F=B0F2Y",
+   "selections": {
+    "B0D": "B0DAG",
+    "B0F": "B0F2Y"
+   },
+   "label": "BERLINE COMMERCIALE · 2.1 TD"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F4Y",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F4Y"
+   },
+   "label": "BERLINE FAMILIALE · 1.8 i 8v 103"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F2J",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F2J"
+   },
+   "label": "BERLINE FAMILIALE · 1.9 TD"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F7M",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F7M"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 HDi 110"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F7C",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F7C"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 HDi 110 (DW10ATED)"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F5T",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F5T"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 i"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F2Q",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F2Q"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 i 16v 135"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F6V",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F6V"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 i 16v 138"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F2K",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F2K"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 i 8v TE"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F2Y",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F2Y"
+   },
+   "label": "BERLINE FAMILIALE · 2.1 TD"
+  }
+ ]
+}

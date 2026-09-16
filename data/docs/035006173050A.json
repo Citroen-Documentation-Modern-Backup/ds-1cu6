@@ -1,0 +1,18 @@
+{
+ "ref": "035006173050A",
+ "refDisplay": "0350 06 173050A",
+ "title": "CANALISATION FIX FILTRE CARBURANT",
+ "nature": "",
+ "applicability": " DEPUIS OPR 07161 JUSQU’A OPR 07846",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CU6",
+   "variantKey": "B0D=B0DAF&B0F=B0F2K",
+   "fctId": "FCT0010"
+  }
+ ]
+}
