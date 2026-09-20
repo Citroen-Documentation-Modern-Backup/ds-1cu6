@@ -1,18 +1,1 @@
-{
- "ref": "035003435215",
- "refDisplay": "0350 03 435215",
- "title": "BARRES ANTIDEVERS AVANT",
- "nature": "",
- "applicability": "SANS BARRE ANTI DEVERS AVANT",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CU6",
-   "variantKey": "B0D=B0DAF&B0F=B0F4Y",
-   "fctId": "FCT0029"
-  }
- ]
-}
+{"ref":"035003435215","refDisplay":"0350 03 435215","title":"BARRES ANTIDEVERS AVANT","nature":"","applicability":"SANS BARRE ANTI DEVERS AVANT","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CU6","variantKey":"B0D=B0DAF&B0F=B0F4Y","fctId":"FCT0029"}],"kind":"pr","appl":"{(?1CU6)(B0F4Y)(DDH00)}","tree":["document",{},[["thesaurus",{"type":"10","code":"001880"},[]],["thesaurus",{"type":"10","code":"006027"},[]],["thesaurus",{"type":"10","code":"006142"},[]],["mpr",{"catal":"0350","grp":"153","grp2":"03","maj":"20110924","numfich":"435215"},[["appl",{},["{(?1CU6)(B0F4Y)(DDH00)}"]],["sti",{"ident":"15301"},[]],["img",{"numfich":"00045995","path":"/img/pr/95/0004/00045995.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"001880","ref":"0000509740","refpg":"5097 40"},[["pmont",{"coef":"02"},[["appl",{},["{(?1CU6)/($,,1,08210)/}"]]]],["descomp",{},[["lib",{"langue":"01"},["ENS"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"294, 44, 11","shape":"circle"},[]]]]]],["repere",{"rep":"02"},[["pr",{"codesi":"006027","ref":"0000509412","refpg":"5094 12"},[["pmont",{"coef":"04"},[["appl",{},["{(?1CU6)}"]]]],["descomp",{},[["lib",{"langue":"01"},["12X125-112"]]]]]],["interactivite",{"order":"02"},[["area",{"coords":"161, 490, 11","shape":"circle"},[]],["area",{"coords":"44, 7, 11","shape":"circle"},[]]]]]],["repere",{"rep":"70"},[["pr",{"codesi":"006142","ref":"0000693665","refpg":"6936 65"},[["pmont",{"coef":"02"},[["appl",{},["{(?1CU6)/($1,08211,,)/}"]]]],["descomp",{},[["lib",{"langue":"01"},["12X125-11,6-25"]]]]]],["interactivite",{"order":"03"},[["area",{"coords":"195, 86, 11","shape":"circle"},[]],["area",{"coords":"96, 8, 11","shape":"circle"},[]]]]]]]]]]}

@@ -1,18 +1,1 @@
-{
- "ref": "035006235520",
- "refDisplay": "0350 06 235520",
- "title": "RADIATEUR",
- "nature": "",
- "applicability": "BVM ET REFRIGERATION OU BVA",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CU6",
-   "variantKey": "B0D=B0DAF&B0F=B0F6V",
-   "fctId": "FCT0009"
-  }
- ]
-}
+{"ref":"035006235520","refDisplay":"0350 06 235520","title":"RADIATEUR","nature":"","applicability":"BVM ET REFRIGERATION OU BVA","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CU6","variantKey":"B0D=B0DAF&B0F=B0F6V","fctId":"FCT0009"}],"kind":"pr","appl":"{(?1CU6)(B0F6V)(@BVA)}{(?1CU6)(B0F6V)(@BVM)(@DRERGA)}","tree":["document",{},[["thesaurus",{"type":"10","code":"000714"},[]],["thesaurus",{"type":"10","code":"000713"},[]],["thesaurus",{"type":"10","code":"000748"},[]],["thesaurus",{"type":"10","code":"009679"},[]],["thesaurus",{"type":"22","code":"P0004041"},[]],["thesaurus",{"type":"21","code":"L0909300"},[]],["thesaurus",{"type":"21","code":"L0909295"},[]],["thesaurus",{"type":"21","code":"L0909298"},[]],["thesaurus",{"type":"21","code":"L0909296"},[]],["thesaurus",{"type":"21","code":"L0909297"},[]],["mpr",{"catal":"0350","grp":"21","grp2":"06","maj":"20110924","numfich":"235520"},[["appl",{},["{(?1CU6)(B0F6V)(@BVA)}{(?1CU6)(B0F6V)(@BVM)(@DRERGA)}"]],["sti",{"ident":"2101"},[]],["obspage",{"ident":"P0004041"},[]],["img",{"numfich":"00032313","path":"/img/pr/13/0003/00032313.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"000714","ref":"00001301P3","refpg":"1301 P3"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)}"]],["obsligne",{"ident":"L0909300"},[]]]]]],["pr",{"codesi":"000713","ref":"00001301W4","refpg":"1301 W4"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)(@BVM)(@DRERGA)(%F)(~2)}"]],["obsligne",{"ident":"L0909295"},[]]]],["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)(@BVA)(%F)(~2)}"]],["obsligne",{"ident":"L0909298"},[]]]],["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)(@BVM)(@DRERGA)(%EUR)[(%F)](~2)}"]],["obsligne",{"ident":"L0909296"},[]]]],["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)(@BVA)(%EUR)[(%F)](~2)}"]],["obsligne",{"ident":"L0909297"},[]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"130, 43, 11","shape":"circle"},[]]]]]],["repere",{"rep":"03"},[["pr",{"codesi":"000748","ref":"0000131290","refpg":"1312 90"},[["pmont",{"coef":"02"},[["appl",{},["{(?1CU6)}"]]]]]],["interactivite",{"order":"02"},[["area",{"coords":"360, 42, 11","shape":"circle"},[]]]]]],["repere",{"rep":"04"},[["pr",{"codesi":"009679","ref":"0000131310","refpg":"1313 10"},[["pmont",{"coef":"02"},[["appl",{},["{(?1CU6)}"]]]]]],["interactivite",{"order":"03"},[["area",{"coords":"52, 367, 11","shape":"circle"},[]]]]]]]]]]}

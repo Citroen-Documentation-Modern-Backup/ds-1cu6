@@ -1,18 +1,1 @@
-{
- "ref": "035001330070",
- "refDisplay": "0350 01 330070",
- "title": "BOITE DE VITESSES MECANIQUE",
- "nature": "",
- "applicability": "BVM ML5T",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CU6",
-   "variantKey": "B0D=B0DAF&B0F=B0F2K",
-   "fctId": "FCT0017"
-  }
- ]
-}
+{"ref":"035001330070","refDisplay":"0350 01 330070","title":"BOITE DE VITESSES MECANIQUE","nature":"","applicability":"BVM ML5T","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CU6","variantKey":"B0D=B0DAF&B0F=B0F2K","fctId":"FCT0017"}],"kind":"pr","appl":"{(?1CU6)(B0F2K)(DBM18)}","tree":["document",{},[["thesaurus",{"type":"10","code":"009391"},[]],["thesaurus",{"type":"10","code":"009390"},[]],["thesaurus",{"type":"21","code":"L0899106"},[]],["mpr",{"catal":"0350","grp":"67","grp2":"01","maj":"20110924","numfich":"330070"},[["appl",{},["{(?1CU6)(B0F2K)(DBM18)}"]],["sti",{"ident":"6701"},[]],["img",{"numfich":"00032292","path":"/img/pr/92/0003/00032292.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"009391","obsnfp":"NFP","ref":"00002201NS","refpg":"2201 NS"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)(DDV22)/($5,19980203,,)/(~2)}"]]]],["descomp",{},[["lib",{"langue":"01"},["CP 15X67 - CT 20X25"]]]],["reporg",{},[["monte",{},[" LE42"]],["monte",{},[" LE25"]],["monte",{},["(LED2)"]],["monte",{},[" LE08"]]]]]],["pr",{"codesi":"009390","obsnfp":"NFP","ref":"00002222E1","refpg":"2222 E1"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)(DDV22)/($1,08421,,)/}"]],["obsligne",{"ident":"L0899106"},[]]]],["descomp",{},[["lib",{"langue":"01"},["CP(15X67)-CT(20X25)P"]]]],["reporg",{},[["monte",{},["(LE79)"]],["monte",{},[" LE42"]],["monte",{},[" LE25"]],["monte",{},[" LE08"]],["monte",{},[" LE79"]]]]]],["pr",{"codesi":"009391","obsnfp":"NFP","ref":"00002223EN","refpg":"2223 EN"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CU6)(DDV22)(~2)}"]]]],["descomp",{},[["lib",{"langue":"01"},["CP(15X67)-CT 20X25P"]]]],["reporg",{},[["monte",{},[" LEG9"]],["monte",{},["(LEG9)"]],["monte",{},[" LE79"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"404, 123, 11","shape":"circle"},[]]]]]]]]]]}
